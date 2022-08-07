@@ -1,0 +1,28 @@
+<div class="functionbox">
+    <div class="rowone">
+        <button class="seven" id="seven" (click)="inputNumber('7')">7</button>
+        <button class="eight" id="eight" (click)="inputNumber('8')">8</button>
+        <button class="nine" id="nine" (click)="inputNumber('9')">9</button>
+        <button class="operator" id="divide"(click)="inputOperator('/')"> &divide;</button>
+    </div>
+    <!-- end row one -->
+    <div class="rowtwo">
+        <button class="four" id="four" (click)="inputNumber('4')">4</button>
+        <button class="five" id="five" (click)="inputNumber('5')">5</button>
+        <button class="six" id="six" (click)="inputNumber('6')">6</button>
+        <button class="operator" id="multiply" (click)="inputOperator('*')">x</button>
+    </div>
+    <!-- end row two -->
+    <div class="rowthree">
+        <button class="one" id="one" (click)="inputNumber('1')">1</button>
+        <button class="two" id="two" (click)="inputNumber('2')">2</button>
+        <button class="three" id="three" (click)="inputNumber('3')">3</button>
+        <button class="operator" id="subtract" (click)="inputOperator('-')">-</button>
+    </div>
+    <!-- end row three -->
+    <div class="rowfour">
+        <button class="zero" id="zero" (click)="inputNumber('0')">0</button>
+        <button class="operator" id="decimal" (click)="inputNumber('.')">.</button>
+        <button class="operator" id="equals" (click)="calculate()">=</button>
+        <button class="operator" id="add" (click)="inputOperator('+')">+</button>
+    </div>
